@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "firstname": "Tilly",
+  "lastname": "Holland",
+  "createdDate": "2022-03-09T14:18:16.679+00:00",
+  "wallet": {
+    "id": 1,
+    "balance": 350.00,
+    "lastUpdate": "2022-03-09T14:23:42.424+00:00"
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "transactionId": "AAAAA11111",
+      "amount": 20.00,
+      "type": 1,
+      "createdDate": "2022-03-09T14:18:16.728+00:00"
+    },
+    {
+      "id": 6,
+      "transactionId": "CRJKD12120d00",
+      "amount": 50.00,
+      "type": 3,
+      "createdDate": "2022-03-09T14:22:35.720+00:00"
+    },
+    {
+      "id": 7,
+      "transactionId": "WD12120POK00",
+      "amount": 50.00,
+      "type": 3,
+      "createdDate": "2022-03-09T14:23:29.735+00:00"
+    },
+    {
+      "id": 8,
+      "transactionId": "WD12120POK000",
+      "amount": 50.00,
+      "type": 2,
+      "createdDate": "2022-03-09T14:23:42.423+00:00"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:vegasdb
+    driver-class-name: org.h2.Driver
+    username: luke
+    password: luke
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: true
+        web-allow-others: false
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8085
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  use-fqn: true
